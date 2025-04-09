@@ -5,4 +5,4 @@ var userSchema =mongoose.Schema({
     role:{type:String,enum:["admin","user"],default:"user"}
 })
 var userModel = mongoose.model("user",userSchema);
-module.exports=userModel;
+module.exports=userModel
